@@ -22,6 +22,7 @@ def organize_files(source_dir, target_dir):
                 print(f"Moved: {source_file} to {target_file}")
 
     except Exception as e:
+        #Print error message if the try method doesn't work
         print(f"Error: {e}")
 
 if __name__ == "__main__":
